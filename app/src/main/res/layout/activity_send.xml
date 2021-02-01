@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:padding="20dp"
+    tools:context=".send">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_round"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="نستقبل مشاكلكم واقتراحاتكم واستفساراتكم "
+            android:textSize="20dp" android:textColor="#000"/>
+    </LinearLayout>
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="الموضوع"
+    android:id="@+id/edsubject"
+    android:background="@drawable/bg_round"
+    android:layout_marginTop="10dp"
+    android:padding="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/emessge"
+        android:hint="الرسالة..."
+        android:background="@drawable/bg_round"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:padding="10dp"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="5dp">
+    <Button
+        android:id="@+id/bsend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_round"
+        android:padding="10dp"
+        android:text="ارسال"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+</LinearLayout>
+
+</LinearLayout>

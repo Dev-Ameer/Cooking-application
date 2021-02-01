@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".FirstAct"
+            android:theme="@style/aaa">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".befor_serch_jucies"
+            android:theme="@style/aaa" />
+        <activity
+            android:name=".Search_Jucies_integ"
+            android:theme="@style/aaa" />
+        <activity
+            android:name=".Berfor_Serch_Candy"
+            android:theme="@style/aaa" />
+        <activity
+            android:name=".Search_Candy_integ"
+            android:theme="@style/aaa" />
+        <activity
+            android:name=".Juse_Fav"
+            android:theme="@style/aaa" />
+        <activity
+            android:name=".Candy_Fav"
+            android:theme="@style/aaa" />
+        <activity
+            android:name=".Fav_Food"
+            android:theme="@style/aaa" />
+        <activity
+            android:name=".Berfor_Serch_Food"
+            android:theme="@style/aaa" />
+        <activity
+            android:name=".Search_Food_integ"
+            android:theme="@style/aaa" />
+        <activity
+            android:name=".JuciesShow"
+            android:theme="@style/aaa" />
+        <activity
+            android:name=".CandyShow"
+            android:theme="@style/aaa" />
+        <activity
+            android:name=".ShowFood"
+            android:theme="@style/aaa" />
+        <activity
+            android:name=".Candy"
+            android:label="حلويات"
+            android:theme="@style/aaa" />
+        <activity
+            android:name=".Juices"
+            android:label="عصائر"
+            android:theme="@style/aaa" />
+        <activity
+            android:name=".Food"
+            android:label="ماكولات"
+            android:theme="@style/aaa" />
+        <activity
+            android:name=".send"
+            android:label="مراسلة" />
+        <activity
+            android:name=".MainAct"
+            android:label="يلا نطبخ" >
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
